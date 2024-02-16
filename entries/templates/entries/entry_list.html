@@ -1,4 +1,6 @@
 <!-- entries/templates/entries/entry_list.html -->
+{% extends "entries/base.html" %}
+{% block content %}
 
 {% for entry in entry_list %}
     <article>
@@ -12,3 +14,6 @@
         </h3>
     </article>
 {% endfor %}
+
+{% endblock %}
+
