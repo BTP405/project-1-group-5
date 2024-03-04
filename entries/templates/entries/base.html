@@ -13,7 +13,21 @@
 <body>
     <h1><a href="/">My Journal pages</a></h1>
 
+    <!-- get msg form message storage -->
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li class="message">
+            {{ message }}
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
     {% block content %}{% endblock %}
+
+    <hr>
+    <a href="{% url 'admin:logout' %}">Logout</a>
 
 </body>
 
