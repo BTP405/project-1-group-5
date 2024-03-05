@@ -3,21 +3,44 @@
 ### Please use the following template to add a ReadMe for your repo.
 
 ## 1. Project Title and Description
-    - Title: Provide a clear and concise title for your project.
-    - Description: Give a brief overview of what your project does and its purpose.
+    - Title: MyJournal
+    - Description: MyJournal allows user to create, view, edit, and delete their journal entries. Each entry is composed of a date, title, and main body.
 ## 2. Installation
-    - Dependencies: List any dependencies or prerequisites required to use your project.
-    - Installation Instructions: Provide step-by-step instructions on how to install and set up your project.
+    - Dependencies: 
+        + asgiref==3.7.2
+        + certifi==2024.2.2
+        + charset-normalizer==3.3.2
+        + Django==3.2.1
+        + idna==3.6
+        + psycopg2==2.9.9
+        + pytz==2024.1
+        + requests==2.31.0
+        + sqlparse==0.4.4
+        + urllib3==2.2.1
+        
+    - Installation Instructions: 
+        1. Pull code from the git repository.
+        2. In diary\settings.py, find the 'USER' and 'PASSWORD' key in DATABASES dictionary and change their value to your postgress account's username and password.
+        3. Create a database by running this command: python manage.py migrate.
+        4. Download the required dependencies.
+        5. Make yourself a superuser of the project by running this command: python manage.py createsuperuser.
+        6. Enter user information according to prompts.
+        7. Run the web server by running this command: python manage.py runserver.
 ## 3. Usage
     - Examples: Include examples or code snippets to demonstrate how to use your project.
     - Configuration: Explain any configuration options or settings users might need to know about.
 ## 4. Features
-    - List of Features: Outline the main features and functionalities of your project.
+    - List of Features: 
+        + Create journal entries
+        + Read journal entries
+        + Update journal entries
+        + Delete journal entries
+        + Provide authentication to protect user's journal entries (login, logout)
 ## 5. Contributing
     - Guidelines: Explain how others can contribute to your project, including information on submitting bug reports, feature requests, or code contributions.
     - Code Style: If applicable, provide guidelines or references to your code style.
 ## 6. Credits
-    - Authors: List the authors or contributors of the project.
+    - Authors: Kristina Zaporozhets, Zoey Lin.
     - Acknowledgments: Mention any individuals or resources that helped inspire or support your project.
 ## 7. License
     - License Information: Specify the license under which your project is distributed.
