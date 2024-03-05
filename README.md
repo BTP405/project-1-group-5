@@ -36,8 +36,12 @@
             + Update a specific journal entry with id==<int:pk>: http://127.0.0.1:8000/entry/<int:pk>/update
             + Delete a specific journal entry with id==<int:pk>: http://127.0.0.1:8000/entry/<int:pk>/delete
             + *Note: <int:pk> is the id (primary key) of the journal entry and you can find it: 
-                1. In the pgAdmin app. 
-                2. Clicks the entry title, then the browser will navigate you to the details page at http://127.0.0.1:8000/entry/<int:pk>, where you can inspect the id by viewing the <int:pk> parameter.
+                * In the pgAdmin app. 
+                * Clicks the entry title, then the browser will navigate you to the details page at http://127.0.0.1:8000/entry/<int:pk>, where you can inspect the id by viewing the <int:pk> parameter.
+        4. You can click the "Logout" Link to log you out of the Django admin site so that other people can not access your journal entries through your laptop.
+        ![logout](https://github.com/BTP405/project-1-group-5/assets/158625381/faeb3225-da1c-4dc1-baf3-b9298d148c97)
+        5. You can click the "log in again" link to log in so you can access and modify your journal entries again!
+        ![login](https://github.com/BTP405/project-1-group-5/assets/158625381/1b28c2e0-1e0f-4a7f-bed4-031558fc0a32)
                 
     - Configuration: Explain any configuration options or settings users might need to know about.
 ## 4. Features
