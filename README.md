@@ -28,6 +28,17 @@
         7. Run the web server by running this command: python manage.py runserver.
 ## 3. Usage
     - Examples: Include examples or code snippets to demonstrate how to use your project.
+        1. You must start the Django development server by running the command python manage.py runserver.
+        2. Access the project in the browser by the url: http://127.0.0.1:8000/
+        3. You can access different pages to use different functionalities by the following urls:
+            + Homepage - view all journal entries: http://127.0.0.1:8000/
+            + Details of a specific journal entry with id==<int:pk>: http://127.0.0.1:8000/entry/<int:pk>
+            + Update a specific journal entry with id==<int:pk>: http://127.0.0.1:8000/entry/<int:pk>/update
+            + Delete a specific journal entry with id==<int:pk>: http://127.0.0.1:8000/entry/<int:pk>/delete
+            + *Note: <int:pk> is the id (primary key) of the journal entry and you can find it: 
+                1. In the pgAdmin app. 
+                2. Clicks the entry title, then the browser will navigate you to the details page at http://127.0.0.1:8000/entry/<int:pk>, where you can inspect the id by viewing the <int:pk> parameter.
+                
     - Configuration: Explain any configuration options or settings users might need to know about.
 ## 4. Features
     - List of Features: 
