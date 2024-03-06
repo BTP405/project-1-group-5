@@ -56,7 +56,10 @@
     - Code Style: If applicable, provide guidelines or references to your code style.
 ## 6. Credits
     - Authors: Kristina Zaporozhets, Zoey Lin.
-    - Acknowledgments: Mention any individuals or resources that helped inspire or support your project.
+    - Acknowledgments: 
+        + tutorial 1: https://www.w3schools.com/django/ 
+        + tutotial 2: https://www.linkedin.com/learning/django-essential-training/what-is-django?u=2169170
+        + idea: https://startcodingnow.com/django-projects-ideas-for-beginners 
 ## 7. License
     - License Information: Specify the license under which your project is distributed.
 ## 8. Additional Sections (Optional)
