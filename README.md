@@ -39,9 +39,7 @@
                 * In the pgAdmin app. 
                 * Clicks the entry title, then the browser will navigate you to the details page at http://127.0.0.1:8000/entry/<int:pk>, where you can inspect the id by viewing the <int:pk> parameter.
         4. You can click the "Logout" Link to log you out of the Django admin site so that other people can not access your journal entries through your laptop.
-        ![logout](https://github.com/BTP405/project-1-group-5/assets/158625381/f6f8bc4b-f36e-488d-ae36-20b8744e473e)
         5. You can click the "log in again" link to log in so you can access and modify your journal entries again!
-        ![login](https://github.com/BTP405/project-1-group-5/assets/158625381/2af5bf50-226f-4897-bd38-edded585216d)
       
     - Configuration: Explain any configuration options or settings users might need to know about.
 ## 4. Features
