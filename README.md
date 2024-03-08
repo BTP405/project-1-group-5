@@ -41,7 +41,11 @@
         4. You can click the "Logout" Link to log you out of the Django admin site so that other people can not access your journal entries through your laptop.
         5. You can click the "log in again" link to log in so you can access and modify your journal entries again!
       
-    - Configuration: Explain any configuration options or settings users might need to know about.
+    - Configuration: 
+        1. In diary\settings.py, find the 'USER' and 'PASSWORD' key in DATABASES dictionary and change their value to your postgress account's username and password.
+        2. Create a database by running this command: python manage.py migrate.
+        3. Make yourself a superuser of the project by running this command: python manage.py createsuperuser.
+
 ## 4. Features
     - List of Features: 
         + Create journal entries
