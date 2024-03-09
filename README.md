@@ -55,7 +55,16 @@
         + Provide authentication to protect user's journal entries (login, logout)
 ## 5. Contributing
     - Guidelines: Explain how others can contribute to your project, including information on submitting bug reports, feature requests, or code contributions.
-    - Code Style: If applicable, provide guidelines or references to your code style.
+        + Bug Reports: If you encounter any bugs or issues while using MyJournal, please submit a detailed bug report through our GitHub Issues page. Please ensure that you include propoer titile (Bug Report), the steps to reproduce the issue, expected vs. actual behavior, and any relevant screenshots. 
+        + Feature Requests: If you have any feauture request or suggestion for improving My Journal, please submit a feature request through our GitHub Issue page. Please ensure that you include the proper title (Feature request), a clear description of the proposed feature, and any potential use cases.
+        + Code Contribution: We appreciate contributions from the community to help us improve MyJournal. If you're interested in contributing code, please follow these steps:
+            1. Fork the repository.
+            2. Create a new branch for your feature or bug fix.
+            3. Implement changes and make sure you are following our coding style.
+            4. Submit a pull request to the main branch of the original repository, explaining the purpose of your changes and any relevant details.
+            5. Your pull request will be reviewed by the our developer, and any necessary feedback or adjustments will be provided before merging.
+
+    - Code Style: We follow the PEP 8 style guide (https://peps.python.org/pep-0008/) for Python code in MyJournal.
 ## 6. Credits
     - Authors: Kristina Zaporozhets, Zoey Lin.
     - Acknowledgments: 
