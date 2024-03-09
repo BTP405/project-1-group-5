@@ -27,7 +27,7 @@
         6. Enter user information according to prompts.
         7. Run the web server by running this command: python manage.py runserver.
 ## 3. Usage
-    - Examples: Include examples or code snippets to demonstrate how to use your project.
+    - Examples: 
         1. You must start the Django development server by running the command python manage.py runserver.
         2. Access the project in the browser by the url: http://127.0.0.1:8000/
         3. You can access different pages to use different functionalities by the following urls:
@@ -54,7 +54,7 @@
         + Delete journal entries
         + Provide authentication to protect user's journal entries (login, logout)
 ## 5. Contributing
-    - Guidelines: Explain how others can contribute to your project, including information on submitting bug reports, feature requests, or code contributions.
+    - Guidelines: 
         + Bug Reports: If you encounter any bugs or issues while using MyJournal, please submit a detailed bug report through our GitHub Issues page. Please ensure that you include propoer titile (Bug Report), the steps to reproduce the issue, expected vs. actual behavior, and any relevant screenshots. 
         + Feature Requests: If you have any feauture request or suggestion for improving My Journal, please submit a feature request through our GitHub Issue page. Please ensure that you include the proper title (Feature request), a clear description of the proposed feature, and any potential use cases.
         + Code Contribution: We appreciate contributions from the community to help us improve MyJournal. If you're interested in contributing code, please follow these steps:
